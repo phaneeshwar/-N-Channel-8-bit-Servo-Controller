@@ -1,9 +1,0 @@
-module Pwm_channel # (
-     parameter clkdiv_period = 2560,
-	  parameter mincycle_count = 64
-	  )(
-	  input clkdiv,
-	  input load,
-	  input [7:0] dutycycle,
-	  output reg Pwmout
-	  );
