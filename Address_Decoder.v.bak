@@ -1,0 +1,4 @@
+module Address_Decoder # (
+      parameter channels = 4.
+		parameter input = 2
+		)
